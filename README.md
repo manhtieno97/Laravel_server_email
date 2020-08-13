@@ -1,3 +1,65 @@
+Tìm hiểu về server email.
+
+  - Tìm hiểu về google-api,email_api, cách kết nối và nhận tocken. Áp dụng vào laravel tạo một server nhận các gmail từ một địa chỉ như momo,... Bóc tách và lấy dữ liệu về.
+
+Thực hiện bởi :Nguyễn Mạnh Tiến
+
+Liên kết sử dụng: https://github.com/dacastro4/laravel-gmail
+
+Kiến thức nắm được: - Cách kết nối email_api, lấy tocken về.
+                    - Câu truy vấn truy xuất tất cả email.
+                    - Bóc tách lấy dữ liệu.
+Trainee tự tổng kết một số kiến thức học được qua bài tập
+
+Todo
+Sử dụng server email để lấy các thôn tin từ một địa chỉ như momo,zalopay,...
+
+Credit
+Xampp,sublime Text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
