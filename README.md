@@ -17,9 +17,11 @@ Thực hiện bởi [Nguyễn Mạnh Tiến](https://github.com/manhtieno97)
    Run composer update to pull down the latest version.
    
    -  **Hoặc chạy** composer require dacastro4/laravel-gmail.
-   -  **Mở config/app.php và thêm**: 'providers' => [
+   -  **Mở config/app.php và thêm**: 
+   
+   'providers' => [
     Dacastro4\LaravelGmail\LaravelGmailServiceProvider::class,
-    ]
+]
     
     'aliases' => [
     'LaravelGmail' => Dacastro4\LaravelGmail\Facade\LaravelGmail::class,
