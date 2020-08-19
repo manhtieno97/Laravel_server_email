@@ -19,7 +19,7 @@ Thực hiện bởi [Nguyễn Mạnh Tiến](https://github.com/manhtieno97)
    -  **Hoặc chạy** composer require dacastro4/laravel-gmail.
    -  **Mở config/app.php và thêm**: 
    
-   'providers' => [
+    'providers' => [
     Dacastro4\LaravelGmail\LaravelGmailServiceProvider::class,
 ]
     
