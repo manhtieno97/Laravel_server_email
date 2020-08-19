@@ -16,7 +16,10 @@ Thực hiện bởi [Nguyễn Mạnh Tiến](https://github.com/manhtieno97)
    
    Run composer update to pull down the latest version.
    
-   -  **Hoặc chạy** composer require dacastro4/laravel-gmail.
+   -  **Hoặc chạy** 
+   
+    composer require dacastro4/laravel-gmail.
+   
    -  **Mở config/app.php và thêm**: 
    
     'providers' => [
