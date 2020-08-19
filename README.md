@@ -18,17 +18,17 @@ Thực hiện bởi [Nguyễn Mạnh Tiến](https://github.com/manhtieno97)
    
    -  **Hoặc chạy** 
    
-    composer require dacastro4/laravel-gmail.
+    composer require dacastro4/laravel-gmail
    
    -  **Mở config/app.php và thêm**: 
    
     'providers' => [
-    Dacastro4\LaravelGmail\LaravelGmailServiceProvider::class,
-]
+    Dacastro4\LaravelGmail\LaravelGmailServiceProvider::class,  
+    ]
     
     'aliases' => [
     'LaravelGmail' => Dacastro4\LaravelGmail\Facade\LaravelGmail::class,
-]
+    ]
 ## Kiến thức nắm được
 
  - Cách kết nối email_api, lấy tocken về.
