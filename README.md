@@ -1,21 +1,47 @@
-Tìm hiểu về server email.
+# Bài tập email server
 
-  - Tìm hiểu về google-api,email_api, cách kết nối và nhận tocken. Áp dụng vào laravel tạo một server nhận các gmail từ một địa chỉ như momo,... Bóc tách và lấy dữ liệu về.
+## Tìm hiểu về server email
 
-Thực hiện bởi :Nguyễn Mạnh Tiến
+ - - Tìm hiểu về google-api,email_api, cách kết nối và nhận tocken. Áp dụng vào laravel tạo một server nhận các gmail từ một địa chỉ như momo,... Bóc tách và lấy dữ liệu về.
 
-Liên kết sử dụng: https://github.com/dacastro4/laravel-gmail
+Thực hiện bởi [Nguyễn Mạnh Tiến](https://github.com/manhtieno97)
 
-Kiến thức nắm được: - Cách kết nối email_api, lấy tocken về.
-                    - Câu truy vấn truy xuất tất cả email.
-                    - Bóc tách lấy dữ liệu.
-Trainee tự tổng kết một số kiến thức học được qua bài tập
+## Liên kết
 
-Todo
-Sử dụng server email để lấy các thôn tin từ một địa chỉ như momo,zalopay,...
+- Liên kết học liệu :https://github.com/dacastro4/laravel-gmail
 
-Credit
-Xampp,sublime Text
+## Hướng dẫn cài đặt test/sử dụng nếu có
+
+   -  **Để thêm dacastro4/laravel-gmail đến composer.json** : "dacastro4/laravel-gmail": "^4.0" 
+   
+   Run composer update to pull down the latest version.
+   
+   -  **Hoặc chạy** composer require dacastro4/laravel-gmail.
+   -  **Mở config/app.php và thêm**: 'providers' => [
+    Dacastro4\LaravelGmail\LaravelGmailServiceProvider::class,
+    ]
+    
+    'aliases' => [
+    'LaravelGmail' => Dacastro4\LaravelGmail\Facade\LaravelGmail::class,
+]
+## Kiến thức nắm được
+
+ - Cách kết nối email_api, lấy tocken về.
+ - Câu truy vấn truy xuất tất cả email.
+ - Bóc tách lấy dữ liệu.
+
+## Todo
+
+ - Sử dụng server email để lấy các thôn tin từ một địa chỉ như momo,zalopay,...
+
+## Credit
+
+- https://github.com/manhtieno97/Laravel_server_email
+
+- https://github.com/dacastro4/laravel-gmail
+
+
+
 
 
 
